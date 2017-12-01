@@ -1,0 +1,49 @@
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url('../fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: RobotoCondensed-Bold;
+    src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-CondBold;
+  src: url('../fonts/OpenSans-CondBold.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: OpenSans-CondLight;
+  src: url('../fonts/OpenSans-CondLight.ttf');
+}
+
+@font-face {
+  font-family: FiraSansCondensed-Regular;
+  src: url('../fonts/FiraSansCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: FiraSansCondensed-Light;
+  src: url('../fonts/FiraSansCondensed-Light.ttf');
+}
+
+@font-face {
+  font-family: FiraSansCondensed-Bold;
+  src: url('../fonts/FiraSansCondensed-Bold.ttf');
+}
