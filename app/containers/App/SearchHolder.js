@@ -19,7 +19,7 @@ export default styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  top: 0;
+  top: 50px;
   display: flex;
   pointer-events: none;
   &>* {

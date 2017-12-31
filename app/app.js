@@ -76,6 +76,10 @@ if (module.hot) {
   });
 }
 
+window.onhashchange = function() {
+  debugger
+}
+
 // Chunked polyfill for browsers without Intl support
 if (!window.Intl) {
   (new Promise((resolve) => {

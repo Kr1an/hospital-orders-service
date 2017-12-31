@@ -7,7 +7,7 @@ export default styled.p`
   margin: auto auto;
   height: 100%;
   font-family: FiraSansCondensed-Light;
-  font-size: 2rem;
+  font-size: 3rem;
   transition: all 1s linear;
   color: transparent;
 `;

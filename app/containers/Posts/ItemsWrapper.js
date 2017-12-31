@@ -28,7 +28,7 @@ const swipedFromRight = keyframes`
 
 export default styled.div`
   pointer-events: none;
-  width:40%;
+  width:60%;
   display: flex;
   justify-content: center;
   align-items: center;

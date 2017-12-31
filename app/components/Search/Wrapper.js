@@ -28,14 +28,14 @@ export default styled.div`
   &:after {
     transition: all 0.2s;
     font-family: FiraSansCondensed-Light;
-    font-size: ${(props) => props.smallPlaceholder ? '0.8rem' : '2rem'};
+    font-size: ${(props) => props.smallPlaceholder ? '1.3rem' : '3rem'};
     content: "Your name";
     font-weight: ${(props) => props.smallPlaceholder ? 'bold' : 'normal'};
     color: ${(props) => props.smallPlaceholder ? 'gray' : 'gray'};
     opacity: 0.7;
     position: absolute;
     left:0px;
-    top: ${(props) => props.smallPlaceholder ? '-12px' : '0'};
+    top: ${(props) => props.smallPlaceholder ? '-15px' : '0'};
     bottom: 0;
     z-index: 5;
     pointer-events: none;
@@ -45,7 +45,7 @@ export default styled.div`
     transition: all ease;
     transition-duration: ${(p) => p.emptyResult ? '0.3s' : '0.1s'};
     font-family: FiraSansCondensed-Light;
-    font-size: 0.9rem;
+    font-size: 1.6rem;
     color: #ff2e2e;
     font-variant: small-caps;
     text-transform: lower;

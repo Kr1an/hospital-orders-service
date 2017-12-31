@@ -17,16 +17,27 @@ import Meta from './Meta';
 
 import Body from './Body';
 
-function Item({ clickHandler, active }) {
+function Item({ clickHandler, active, data }) {
+  debugger
   return (
     <Wrapper onClick={clickHandler} active={active}>
       <Meta>
-        <Title>Blood Analys</Title>
+        <Title>{data.title}</Title>
         <Date>1.13.2017</Date>
       </Meta>
       <div style={{ transition: 'all 0.5s ease', background: active ? 'rgba(0,0,0,0.02)' : null }}>
         <Body active={active}>
-          Test Information is going here Test Information is going here Test Information is going here Test Information is going here Test Information is going here Test Information is going here Test Information is going here Test Information is going here
+          {
+            !active ? (
+              <div>
+                {
+                  data.pre_text
+                }
+              </div>
+            ) : (
+              <div dangerouslySetInnerHTML={{ __html: data.content }}></div>
+            )
+          }
         </Body>
       </div>
     </Wrapper>
@@ -36,6 +47,7 @@ function Item({ clickHandler, active }) {
 Item.propTypes = {
   clickHandler: PropTypes.func,
   active: PropTypes.bool,
+  data: PropTypes.object,
 };
 
 export default withRouter(Item);

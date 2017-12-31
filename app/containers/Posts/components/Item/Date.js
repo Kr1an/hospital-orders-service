@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.p`
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-family: inherit;
   color: rgba(0,0,0,0.2);
   max-height: 50%;

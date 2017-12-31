@@ -47,13 +47,17 @@ export class Posts extends React.Component { // eslint-disable-line react/prefer
     const {
       loading,
     } = this.state;
+    const {
+      items,
+    } = this.props;
     const active = +this.props.match.params.id;
+    debugger
     return (
       <LoadingWrapper loading={loading}>
         <Wrapper>
           <ItemsWrapper>
             {
-              this.props.items.map((x, idx) => <Item active={active === idx} clickHandler={() => { this.props.history.push(`${this.props.match.url.split('/').slice(0, 3).join('/')}/${idx}`); }} data={x} />)
+              this.props.items.map((x, idx) => <Item active={active === idx} clickHandler={() => { this.props.history.push(`${this.props.match.url.split('/').slice(0, 4).join('/')}/${idx}`); }} data={x} />)
             }
           </ItemsWrapper>
         </Wrapper>

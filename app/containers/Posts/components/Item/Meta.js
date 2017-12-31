@@ -11,5 +11,6 @@ export default styled.div`
   justify-content: center;
   align-items: flex-end;
   flex-wrap:nowrap;
+  font-size: 2.2rem;
   overflow: hidden;
 `;
